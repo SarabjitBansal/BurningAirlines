@@ -1,8 +1,8 @@
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:29:13 +1000
-  
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -50,11 +50,14 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:51:30 +1000
+=======
 Started GET "/" for 127.0.0.1 at 2018-04-17 16:29:16 +1000
-  
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -103,10 +106,10 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:29:18 +1000
-  
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -155,10 +158,10 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:29:23 +1000
-  
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -207,10 +210,10 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:29:28 +1000
-  
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -259,10 +262,10 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:29:33 +1000
-  
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -311,10 +314,11 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:29:38 +1000
-  
+>>>>>>> 757c238a5eaef58f87203807518f804d0f10cd5c
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -362,11 +366,15 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+Started GET "/" for 127.0.0.1 at 2018-04-17 16:51:34 +1000
+=======
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:29:43 +1000
-  
+>>>>>>> 757c238a5eaef58f87203807518f804d0f10cd5c
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -414,11 +422,15 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:51:35 +1000
+=======
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:29:48 +1000
-  
+>>>>>>> 757c238a5eaef58f87203807518f804d0f10cd5c
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -466,11 +478,15 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:51:40 +1000
+=======
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:29:53 +1000
-  
+>>>>>>> 757c238a5eaef58f87203807518f804d0f10cd5c
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -518,11 +534,15 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:51:45 +1000
+=======
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:29:58 +1000
-  
+>>>>>>> 757c238a5eaef58f87203807518f804d0f10cd5c
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -570,11 +590,15 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:51:50 +1000
+=======
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:30:03 +1000
-  
+>>>>>>> 757c238a5eaef58f87203807518f804d0f10cd5c
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -622,11 +646,15 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:51:55 +1000
+=======
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:30:08 +1000
-  
+>>>>>>> 757c238a5eaef58f87203807518f804d0f10cd5c
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -674,11 +702,15 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:52:00 +1000
+=======
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:30:13 +1000
-  
+>>>>>>> 757c238a5eaef58f87203807518f804d0f10cd5c
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -726,11 +758,15 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:52:05 +1000
+=======
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:30:18 +1000
-  
+>>>>>>> 757c238a5eaef58f87203807518f804d0f10cd5c
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -778,11 +814,15 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:52:10 +1000
+=======
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:30:23 +1000
-  
+>>>>>>> 757c238a5eaef58f87203807518f804d0f10cd5c
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -830,11 +870,15 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:52:15 +1000
+=======
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:30:28 +1000
-  
+>>>>>>> 757c238a5eaef58f87203807518f804d0f10cd5c
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -882,11 +926,15 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:52:20 +1000
+=======
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:30:33 +1000
-  
+>>>>>>> 757c238a5eaef58f87203807518f804d0f10cd5c
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -934,11 +982,15 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:52:25 +1000
+=======
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:30:38 +1000
-  
+>>>>>>> 757c238a5eaef58f87203807518f804d0f10cd5c
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -986,11 +1038,15 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:52:30 +1000
+=======
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:30:43 +1000
-  
+>>>>>>> 757c238a5eaef58f87203807518f804d0f10cd5c
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -1038,11 +1094,15 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:52:35 +1000
+=======
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:30:48 +1000
-  
+>>>>>>> 757c238a5eaef58f87203807518f804d0f10cd5c
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -1090,11 +1150,13 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
+=======
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:30:53 +1000
-  
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -1143,10 +1205,10 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:30:58 +1000
-  
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -1195,10 +1257,10 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:31:03 +1000
-  
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -1247,10 +1309,10 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:31:08 +1000
-  
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -1299,10 +1361,10 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:31:13 +1000
-  
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -1351,10 +1413,10 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:31:18 +1000
-  
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -1403,10 +1465,10 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:31:23 +1000
-  
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -1455,10 +1517,10 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:31:28 +1000
-  
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -1507,10 +1569,10 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:31:33 +1000
-  
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -1559,10 +1621,10 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:31:38 +1000
-  
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -1611,10 +1673,10 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:31:43 +1000
-  
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -1663,10 +1725,10 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:31:48 +1000
-  
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -1715,10 +1777,10 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:31:53 +1000
-  
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -1767,10 +1829,10 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:31:58 +1000
-  
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -1819,10 +1881,10 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:32:03 +1000
-  
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -1871,10 +1933,10 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:32:08 +1000
-  
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -1923,10 +1985,10 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:32:13 +1000
-  
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -1975,10 +2037,10 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:32:18 +1000
-  
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -2027,10 +2089,10 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:32:23 +1000
-  
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -2079,10 +2141,10 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:32:28 +1000
-  
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -2131,10 +2193,10 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:32:33 +1000
-  
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -2183,10 +2245,10 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/" for 127.0.0.1 at 2018-04-17 16:33:01 +1000
-  
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -2235,10 +2297,10 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:33:03 +1000
-  
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -2287,10 +2349,10 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:33:08 +1000
-  
+
 ActiveRecord::NoDatabaseError (FATAL:  database "ba_server_development" does not exist
 ):
-  
+
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:697:in `connect'
 activerecord (5.1.6) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
@@ -2377,9 +2439,9 @@ Completed 200 OK in 19ms (Views: 7.7ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:37:33 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -2408,9 +2470,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:37:38 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -2439,9 +2501,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:37:43 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -2470,9 +2532,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:37:48 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -2501,9 +2563,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:37:53 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -2532,9 +2594,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:37:58 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -2563,9 +2625,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:38:03 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -2601,9 +2663,9 @@ Completed 200 OK in 9ms (Views: 5.4ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:38:08 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -2632,9 +2694,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:38:13 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -2663,9 +2725,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:38:18 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -2694,9 +2756,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:38:23 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -2725,9 +2787,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:38:28 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -2756,9 +2818,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:38:33 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -2787,9 +2849,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:38:38 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -2818,9 +2880,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:38:43 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -2849,9 +2911,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:38:48 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -2880,9 +2942,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:38:53 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -2911,9 +2973,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:38:58 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -2942,9 +3004,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:39:03 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -2973,9 +3035,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:39:08 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -3004,9 +3066,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:39:13 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -3035,9 +3097,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:46:35 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -3066,9 +3128,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:46:40 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -3097,9 +3159,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:46:45 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -3128,9 +3190,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:46:50 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -3159,9 +3221,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:46:55 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -3190,9 +3252,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:47:00 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -3221,9 +3283,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:47:05 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -3252,9 +3314,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:47:10 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -3283,9 +3345,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:47:15 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -3314,9 +3376,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:47:20 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -3345,9 +3407,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:47:25 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -3376,9 +3438,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:47:30 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -3407,9 +3469,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:47:35 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -3438,9 +3500,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:47:40 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -3469,9 +3531,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:47:45 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -3500,9 +3562,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:47:50 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -3531,9 +3593,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:47:55 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -3562,9 +3624,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:48:00 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -3593,9 +3655,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:48:05 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -3624,9 +3686,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:48:10 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -3655,9 +3717,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:48:15 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -3686,9 +3748,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:48:20 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -3717,9 +3779,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:48:25 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -3748,9 +3810,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:48:30 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -3779,9 +3841,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:48:35 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -3810,9 +3872,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:48:40 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -3841,9 +3903,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:48:45 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -3872,9 +3934,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:48:50 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -3903,9 +3965,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:48:55 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -3934,9 +3996,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:49:00 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -3965,9 +4027,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:49:05 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -3996,9 +4058,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:49:10 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -4027,9 +4089,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:49:15 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -4058,9 +4120,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:49:20 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -4089,9 +4151,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:49:25 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -4120,9 +4182,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:49:30 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -4151,9 +4213,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:49:35 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -4182,9 +4244,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:49:40 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -4213,9 +4275,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:49:45 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -4244,9 +4306,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:49:50 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -4275,9 +4337,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:49:55 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -4306,9 +4368,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:50:00 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -4337,9 +4399,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:50:05 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -4368,9 +4430,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:50:10 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -4399,9 +4461,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:50:15 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -4430,9 +4492,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:50:20 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -4461,9 +4523,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:50:25 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -4492,9 +4554,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:50:30 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -4523,9 +4585,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:50:35 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -4554,9 +4616,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:50:40 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -4585,9 +4647,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:50:45 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -4616,9 +4678,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:50:50 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -4647,9 +4709,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:50:55 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -4678,9 +4740,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:51:00 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -4709,9 +4771,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:51:05 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -4740,9 +4802,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:51:10 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -4771,9 +4833,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:51:15 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -4802,9 +4864,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:51:20 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -4833,9 +4895,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:51:25 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -4864,9 +4926,9 @@ puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/static/js/bundle.js" for 127.0.0.1 at 2018-04-17 16:51:30 +1000
-  
+
 ActionController::RoutingError (No route matches [GET] "/static/js/bundle.js"):
-  
+
 actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
 web-console (3.6.0) lib/web_console/middleware.rb:137:in `call_app'
 web-console (3.6.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -4894,6 +4956,7 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+<<<<<<< HEAD
 Started GET "/routes" for 127.0.0.1 at 2018-04-17 17:24:13 +1000
   [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   
@@ -12073,3 +12136,6 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+=======
+>>>>>>> 757c238a5eaef58f87203807518f804d0f10cd5c
+>>>>>>> 67e42c9137b0685571d5d8b4fb8d164a044d7a57
