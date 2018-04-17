@@ -9,6 +9,12 @@
   </head>
 
   <body>
+
+    <div class="container">
+      <%= link_to 'HOME', root_path %>
+      <%= link_to 'Airplanes', new_airplane_path %>
+      <%= link_to 'Flights', new_flight_path %>
+    </div>
     <%= yield %>
   </body>
 </html>
