@@ -7,18 +7,26 @@ import '../index.css';
 class SearchForm extends Component {
   render(){
     return(
-      <form>
-        <h4>Burning Airlines</h4>
-
-
-        <input type ="text" placeholder="From" />
-        <input type ="text" placeholder="to" />
-        <button  className = "square" >Search</button>
-      </form>
+    <form>
+    <label>Burning Airlines</label>
+    <input type ="text" placeholder="From" />
+    <input type ="text" placeholder="to" />
+    <input type="submit" value="Search"  className = "square" />
+    </form>
     );
   }
 
 }
+
+
+class ShowFlights extends Component {
+
+  render() {
+    return("flights"
+    );
+  }
+}
+
 
 class Srch extends Component {
   render() {
@@ -26,7 +34,7 @@ class Srch extends Component {
       <div>
         <Link to="/">Back to home</Link>
         <SearchForm />
-
+        <ShowFlights />
       </div>
     )
   }
