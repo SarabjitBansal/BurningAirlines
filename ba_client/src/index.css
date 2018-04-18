@@ -10,3 +10,17 @@ body {
   font-weight: bold; */
 
 }
+
+.divDisp {
+  display: block;
+
+}
+.divDisp p {
+  display: inline;
+  padding: 10px;
+
+}
+.ShowFlights{
+margin-top: 20px;
+
+}
