@@ -40,9 +40,7 @@ class SearchForm extends Component {
 }
 
 function ShowFlights(props) {
-
-
-
+  console.log(props);
   return (
     <div className ="ShowFlights">
       { props.details.flights.map( s =>
@@ -55,13 +53,7 @@ function ShowFlights(props) {
           <p>{s.destination}</p>
           <p>{s.airplane.name}</p>
         </div>
-
-
       ) }
-
-
-
-
     </div>
   );
 }
@@ -78,26 +70,51 @@ class Srch extends Component {
     this.saveFlight = this.saveFlight.bind(this);
 
   // Polling
-    const fetchFlights = () => { // Fat arrow functions do not break the connection to this.
-      axios.get(SERVER_URL).then( results => this.setState( { flights: results.data } ) );
-      // setTimeout(fetchFlights, 4000); // Recursion
-    }
+    // const fetchFlights = () => { // Fat arrow functions do not break the connection to this.
+    //   axios.get(SERVER_URL).then( results => this.setState( { flights: results.data } ) );
+    //   // setTimeout(fetchFlights, 4000); // Recursion
+    // }
 // fetchFlights();
-    fetchFlights();
+    // fetchFlights();
   }
 //Flights - from and to - params\
 
-  saveFlight(s) {
+
+saveFlight(s) {
+  console.log(s.fromD);
+  console.log(s.toD);
+  // axios.get(SERVER_URL).then((results) => this.setState( { flights: results.data } ) );
+  // axios.get(SERVER_URL).then((results) => this.setState( { flights: results.data } ) );
+  axios.get(SERVER_URL).then((results) =>
 
 
-      axios.get(SERVER_URL, {origin: s.fromD, destination: s.toD }).then((results) => {
-      console.log(results);
-      this.setState( { flights: [results.data, ...this.state.flights] } ); // Spread operator
-      this.fetchFlights();
 
-  });
+  this.setState( { flights: results.data } ) );
+
+
+
+
+////
+
+
+
+
+//
 
 }
+// original
+
+//   saveFlight(s) {
+//
+//
+//       axios.get(SERVER_URL, {origin: s.fromD, destination: s.toD }).then((results) => {
+//       console.log(results);
+//       this.setState( { flights: [results.data, ...this.state.flights] } ); // Spread operator
+//       this.fetchFlights();
+//
+//   });
+//
+// }
 
 
   render() {
