@@ -21,6 +21,23 @@
     <%= form.number_field :flight_id, id: :reservation_flight_id %>
   </div>
 
+  <div class="field">
+    <%= form.label :row %>
+    <%= form.text_area :row, id: :reservation_row %>
+  </div>
+
+  <div class="field">
+    <%= form.label :column %>
+    <%= form.text_area :column, id: :reservation_column %>
+  </div>
+
+  <div class="field">
+    <%= form.label :seat %>
+    <%= form.text_area :seat, id: :reservation_seat %>
+  </div>
+
+
+
   <div class="actions">
     <%= form.submit %>
   </div>

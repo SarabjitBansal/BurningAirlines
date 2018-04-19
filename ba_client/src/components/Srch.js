@@ -43,8 +43,14 @@ class SearchForm extends Component {
 function ShowFlights(props) {
   return (
     <div className ="ShowFlights">
+<<<<<<< HEAD
+      { props.details.flights.map( s =>
+
+        <div className="divDisp" key={s.id}>
+=======
     { props.details.flights.map( s =>
       <div className="divDisp" key={s.id}>{s.date}
+>>>>>>> 924179fed30025746fd0461db4f88bdd943fbb65
         <p>{s.date}</p>
         <Link
           to={{
