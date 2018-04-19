@@ -1,7 +1,5 @@
-
-import React, { PureComponent as Component } from 'react';
+import React, { PureComponent as Component } from "react";
 import { Link } from 'react-router-dom';
-// import PropTypes from 'prop-types';
 import axios from 'axios';
 import '../index.css';
 const SERVER_URL = 'http://localhost:3333/flights.json';
@@ -30,8 +28,8 @@ class SearchForm extends Component {
     return(
     <form onSubmit={this._handleSubmit}>
     <label>Burning Airlines</label>
-    <input type ="text" placeholder="From" onChange={this._handleChange1} />
-    <input type ="text" placeholder="to" onChange={this._handleChange2}/>
+    <input type ="text"  placeholder="From" onChange={this._handleChange1} />
+    <input type ="text"  placeholder="to" onChange={this._handleChange2}/>
     <input type="submit" value="Search"  className = "square" />
     </form>
     );
@@ -40,20 +38,21 @@ class SearchForm extends Component {
 }
 
 function ShowFlights(props) {
-  console.log(props);
   return (
     <div className ="ShowFlights">
-      { props.details.flights.map( s =>
-
-        <div className="divDisp" key={s.id}>{s.date}
+    { props.details.flights.map( s =>
+      <div className="divDisp" key={s.id}>{s.date}
         <p>{s.date}</p>
-          <p>{s.flight_no}</p>
-
-          <p>{s.origin}</p>
-          <p>{s.destination}</p>
-          <p>{s.airplane.name}</p>
-        </div>
-      ) }
+        <Link
+          to={{
+          pathname: `/flight/${s.id}`
+          }}><p>{s.flight_no}</p>
+        </Link>
+        <p>{s.origin}</p>
+        <p>{s.destination}</p>
+        <p>{s.airplane.name}</p>
+      </div>
+    )}
     </div>
   );
 }
@@ -62,60 +61,23 @@ function ShowFlights(props) {
 
 
 class Srch extends Component {
-
   constructor(props) {
     super(props);
     this.state = { flights:[], airplanes:[] };
-    // this.state = { flights : { date:'', flight_no:'',origin:'',destination:'',airplane_id: 0 } };
     this.saveFlight = this.saveFlight.bind(this);
-
-  // Polling
-    // const fetchFlights = () => { // Fat arrow functions do not break the connection to this.
-    //   axios.get(SERVER_URL).then( results => this.setState( { flights: results.data } ) );
-    //   // setTimeout(fetchFlights, 4000); // Recursion
-    // }
-// fetchFlights();
-    // fetchFlights();
   }
-//Flights - from and to - params\
-
-
-saveFlight(s) {
-  console.log(s.fromD);
-  console.log(s.toD);
-  // axios.get(SERVER_URL).then((results) => this.setState( { flights: results.data } ) );
-  // axios.get(SERVER_URL).then((results) => this.setState( { flights: results.data } ) );
-  axios.get(SERVER_URL).then((results) =>
-
-
-
-  this.setState( { flights: results.data } ) );
-
-
-
-
-////
-
-
-
-
-//
-
-}
-// original
-
-//   saveFlight(s) {
-//
-//
-//       axios.get(SERVER_URL, {origin: s.fromD, destination: s.toD }).then((results) => {
-//       console.log(results);
-//       this.setState( { flights: [results.data, ...this.state.flights] } ); // Spread operator
-//       this.fetchFlights();
-//
-//   });
-//
-// }
-
+  saveFlight(s) {
+    axios.get(SERVER_URL).then(function(results) {
+      let arr = results.data;
+      let newresult=[];
+      for (let i = 0; i < arr.length; i++) {
+        if (arr[i].origin === s.fromD  &&  arr[i].destination === s.toD ){
+          newresult.push(arr[i]);
+        }
+      }
+      this.setState( { flights: newresult } )
+    }.bind(this))
+  }
 
   render() {
     return (
