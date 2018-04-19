@@ -2,6 +2,7 @@
 
 <h1>Airplanes</h1>
 
+<div id="table">
 <table>
   <thead>
     <tr>
@@ -11,20 +12,29 @@
       <th>Total seats</th>
       <th colspan="3"></th>
     </tr>
+</div>
+
   </thead>
 
   <tbody>
-    <% @airplanes.each do |airplane| %>
-      <tr>
-        <td><%= airplane.name %></td>
-        <td><%= airplane.rows %></td>
-        <td><%= airplane.columns %></td>
-        <td><%= airplane.total_seats %></td>
-        <td><%= link_to 'Show', airplane %></td>
-        <td><%= link_to 'Edit', edit_airplane_path(airplane) %></td>
-        <td><%= link_to 'Destroy', airplane, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
+
+    <div class="container-fluid">
+      <nav>
+        <% @airplanes.each do |airplane| %>
+          <tr>
+            <td><%= airplane.name %></td>
+            <td><%= airplane.rows %></td>
+            <td><%= airplane.columns %></td>
+            <td><%= airplane.total_seats %></td>
+            <td><%= link_to 'Show', airplane %></td>
+            <td><%= link_to 'Edit', edit_airplane_path(airplane) %></td>
+            <td><%= link_to 'Destroy', airplane, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+            <% end %>
+          </tr>
+      </nav>
+    </div>
+
+
   </tbody>
 </table>
 

@@ -4,12 +4,13 @@ import { Link } from 'react-router-dom';
 class Home extends Component {
   render() {
     return (
-      <div>
-        <h2>This is the homepage</h2>
-        <p>
-          Search <Link to="/srch">for flights</Link>
-        </p>
-      </div>
+
+      <div class="container">
+        <h1>Welcome to Burning Airlines</h1>
+
+      <button id="search"><Link to="/srch">Search flights</Link></button>
+
+    </div>
     )
   }
 }
