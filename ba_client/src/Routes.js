@@ -8,10 +8,10 @@ import Search from './components/Srch';
 
 const Routes = (
   <Router>
-    <div>
+    <div className="routes">
       <Route exact path="/" component={ Home } />
       <Route exact path="/srch" component={ Search }/>
-      
+
     </div>
   </Router>
 );

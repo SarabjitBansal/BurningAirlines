@@ -28,12 +28,15 @@ class SearchForm extends Component {
   }
   render(){
     return(
+  <div className="searchForm">
     <form onSubmit={this._handleSubmit}>
     <label>Burning Airlines</label>
+    <br/>
     <input type ="text" placeholder="From" onChange={this._handleChange1} />
     <input type ="text" placeholder="to" onChange={this._handleChange2}/>
     <input type="submit" value="Search"  className = "square" />
     </form>
+  </div>
     );
   }
 
@@ -120,7 +123,7 @@ saveFlight(s) {
   render() {
     return (
       <div>
-        <Link to="/">Back to home</Link>
+        <Link to="/" class="link">Home</Link>
         <SearchForm onSubmit={this.saveFlight} />
         <ShowFlights details={this.state} />
       </div>

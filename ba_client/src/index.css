@@ -1,15 +1,21 @@
+html {
+  background: url(https://thumbs.dreamstime.com/b/burning-airplane-flames-going-down-30497349.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 30px;
 }
-.square {
-  /* background: #fff;
-  border: 1px solid #999;
+/* .square {
+  background: #fff;
+  border: 1px solid #grey;
   font-size: 15px;
-  font-weight: bold; */
+  font-weight: bold;
 
-}
+} */
 
 .divDisp {
   display: block;
@@ -23,4 +29,50 @@ body {
 .ShowFlights{
 margin-top: 20px;
 
+}
+
+/* .container {
+  background-color: rgba(255,255,255, 0.3);
+  margin: 0;
+  padding: 0 4 0 4em;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+} */
+
+/* .flights {
+  font-size: 30px;
+  border: 20px;
+  border-color: red;
+  border-radius: 2px;
+} */
+
+.link {
+  color: red;
+  /* font-size: 20px; */
+  align: right;
+}
+
+.routes {
+  background-color: rgba(255,255,255, 0.3);
+  margin-left: 500px;
+  padding: 0 4 0 4em;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  font-size: 30px;
+  color: grey;
+
+  margin-top: 20px;
+}
+
+#search {
+  font-size: 20px;
+  color: grey;
+}
+
+.searchForm {
+  /* font-size: 20px; */
+  color: grey;
+  padding: 20px;
 }
