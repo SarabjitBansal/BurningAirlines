@@ -3,6 +3,6 @@ Rails.application.routes.draw do
   resources :users
   resources :flights
   resources :airplanes
-
+  resources :reservations
 end
-  # resources :reservations
+  

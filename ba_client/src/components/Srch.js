@@ -45,7 +45,7 @@ function ShowFlights(props) {
     <div className ="ShowFlights">
       { props.details.flights.map( s =>
 
-        <div className="divDisp" key={s.id}>{s.date}
+        <div className="divDisp" key={s.id}>
         <p>{s.date}</p>
           <p>{s.flight_no}</p>
 
@@ -90,6 +90,7 @@ saveFlight(s) {
 
 
   this.setState( { flights: results.data } ) );
+
 
 
 

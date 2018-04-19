@@ -11,7 +11,7 @@ const Routes = (
     <div>
       <Route exact path="/" component={ Home } />
       <Route exact path="/srch" component={ Search }/>
-      
+
     </div>
   </Router>
 );
